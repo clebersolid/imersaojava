@@ -12,11 +12,10 @@ public class DesvioComposto {
 
         if (doacao <= 1000.00) {
             investimento = doacao * 0.05;
-            usoImediato = doacao - investimento;
         } else {
             investimento = doacao * 0.15;
-            usoImediato = doacao - investimento;
         }
+        usoImediato = doacao - investimento;
         System.out.println("A doação de R$" + doacao + " implica em um investimento de R$" + investimento + " , restando R$" + usoImediato + " para uso imediato");
     }
 }
