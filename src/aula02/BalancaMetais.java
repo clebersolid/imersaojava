@@ -6,14 +6,14 @@ public class BalancaMetais {
 
     public static void main(String[] args) {
 
-        double ouro, prata, bronze;
+        float ouro, prata, bronze;
         Scanner leitor = new Scanner(System.in);
         System.out.println("Digite o valor do Ouro: ");
-        ouro = leitor.nextDouble();
+        ouro = leitor.nextFloat();
         System.out.println("Digite o valor da Prata: ");
-        prata = leitor.nextDouble();
+        prata = leitor.nextFloat();
         System.out.println("Digite o valor do Bronze: ");
-        bronze = leitor.nextDouble();
+        bronze = leitor.nextFloat();
 
         if (ouro > prata) {
             if (ouro > bronze) {
